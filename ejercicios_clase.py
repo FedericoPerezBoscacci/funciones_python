@@ -40,6 +40,26 @@ def ej1():
     Utilice esa función para calcular el promedio y luego
     imprima en pantalla el resultado
     '''
+    def caso1 (lista):
+        suma = 0               
+        cantidad = 0
+        for i in lista:
+            suma += i 
+            
+        cantidad =  len(lista)
+        
+        promedio = suma / cantidad
+
+        return promedio
+
+    resultado =  caso1(numeros)
+
+    print("El promedio es {}".format(resultado))
+
+
+    
+
+
 
 
 def ej2():

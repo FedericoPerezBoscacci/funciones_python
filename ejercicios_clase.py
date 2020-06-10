@@ -55,6 +55,7 @@ def ej1():
     resultado =  caso1(numeros)
 
     print("El promedio es {}".format(resultado))
+    
 
 
     
@@ -83,15 +84,36 @@ def ej2():
 
     Dicha función debe retornar la lista de elementos random generados.
     '''
-    def lista_aleatoria (inicio,fin,cantidad):
-
-        numero = random.randrange(lista_aleatoria)
-        pass
     
-    lista =  []
-    print("Ingrese lista de numeros que desea realizar")
-    int(input(lista.append)
+    def lista_aleatoria(inicio,final,cantidad):
+        
+        for i in range(0,cantidad):
+            
+            numero = []
 
+            numero [i] = random.randrange(inicio,final)
+
+            
+
+
+            
+        return numero
+
+    
+
+
+    print("Ingrese cuantos numeros aleatorios seran: ")
+    cantidad = int(input())
+
+    print("Ingrese numero de inicio")
+    inicio = int(input())
+    print("Ingrese numero final: ")
+    final = int(input())
+    
+    
+    numeros = lista_aleatoria(inicio,final,cantidad)
+
+    print("Numeros al azar: {} ".format(numeros))
     
     
     # numeros = lista_aleatoria (inicio, fin, cantidad)
@@ -134,8 +156,8 @@ def ej3():
     en la función afectan a la variable pasada como argumento)
 
     '''
-
     
+
 
 
 

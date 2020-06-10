@@ -64,13 +64,13 @@ def ej1():
 
 def ej2():
     # Ejercicios con modulos del sistema
-    inicio = 0
-    fin = 10
+    #inicio = 0
+    #fin = 10
 
     # Ejemplo de como obtener un numero aleatorio
     # entre inicio y fin
     # inicio <= numero <= fin
-    numero = random.randrange(inicio, fin+1)
+    #numero = random.randrange(inicio, fin+1)
     # Documentación oficial de random
     # https://docs.python.org/3.7/library/random.html
 
@@ -83,9 +83,19 @@ def ej2():
 
     Dicha función debe retornar la lista de elementos random generados.
     '''
+    def lista_aleatoria (inicio,fin,cantidad):
 
+        numero = random.randrange(lista_aleatoria)
+        pass
+    
+    lista =  []
+    print("Ingrese lista de numeros que desea realizar")
+    int(input(lista.append)
+
+    
+    
     # numeros = lista_aleatoria (inicio, fin, cantidad)
-
+    
     # Imprima en pantalla la lista de elementos generados
     # print(....)
 
@@ -107,6 +117,8 @@ def ej2():
     # raiz_cuadrada_2 = ....
 
 
+
+
 def ej3():
     # Ejercicios de listas y métodos
     numeros = [2, 4, 6, 8, 10, 12]
@@ -122,6 +134,9 @@ def ej3():
     en la función afectan a la variable pasada como argumento)
 
     '''
+
+    
+
 
 
 def ej4():
@@ -173,8 +188,8 @@ def ej5():
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
-    ej1()
-    #ej2()
+    #ej1()
+    ej2()
     #ej3()
     #ej4()
     #ej5()
